@@ -1,34 +1,39 @@
-**CURRENCY CONVERTER**
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency Converter</title>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet-->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="app-details">
+        <img src="image.webp" class="app-icon" />
+        <h1 class="app-title">Currency Converter</h1>
+      </div>
+      <label for="amount">Amount:</label>
+      <input type="number" id="amount" value="100" />
+      <div class="dropdowns">
+        <select id="from-currency-select">
+        </select>
+        <select id="to-currency-select">
+        </select>
+      </div>
+      <button id="convert-button">Convert</button>
+      <p id="result"></p>
+    </div>
 
-A simple currency converter web application built to practice my skills in JavaScript, HTML, and CSS. This project allows users to convert amounts between different currencies with a user-friendly interface.
-
-*Features*
-
-Converts currencies based on user-selected options.
-Real-time calculation of currency values.
-Clean and responsive UI for a seamless experience.
-
-*Technologies Used*
-
-HTML: For structuring the web pages.
-CSS: For styling and creating a responsive layout.
-JavaScript: For handling logic, including fetching exchange rates and performing conversions.
-
-*How to Use*
-
-Select the base currency and the target currency from the dropdown menus.
-Enter the amount you want to convert.
-Click the "Convert" button to get the result.
-
-*Learning Goals*
-
-This project helped me:
-Implement dynamic functionality using JavaScript.
-Practice making API requests (if using a live currency API).
-Strengthen my knowledge of HTML and CSS.
-
-*Future Improvements*
-
-Adding more currency options.
-Implementing real-time exchange rate updates with an API.
-Enhancing the user interface for a better user experience.
+    <!-- Scipt With Array Of Supported Country Codes -->
+    <script src="currency-codes.js"></script>
+    <!-- Script with API Key -->
+    <script src="api-key.js"></script>
+    <!-- Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
