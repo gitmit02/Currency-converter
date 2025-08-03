@@ -1,39 +1,47 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Currency Converter</title>
-    <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Stylesheet-->
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="wrapper">
-      <div class="app-details">
-        <img src="image.webp" class="app-icon" />
-        <h1 class="app-title">Currency Converter</h1>
-      </div>
-      <label for="amount">Amount:</label>
-      <input type="number" id="amount" value="100" />
-      <div class="dropdowns">
-        <select id="from-currency-select">
-        </select>
-        <select id="to-currency-select">
-        </select>
-      </div>
-      <button id="convert-button">Convert</button>
-      <p id="result"></p>
-    </div>
+# 💱 Currency Converter Web App
 
-    <!-- Scipt With Array Of Supported Country Codes -->
-    <script src="currency-codes.js"></script>
-    <!-- Script with API Key -->
-    <script src="api-key.js"></script>
-    <!-- Script -->
-    <script src="script.js"></script>
-  </body>
-</html>
+A simple and responsive Currency Converter web application built using HTML, CSS, and JavaScript. This project allows users to convert one currency to another using real-time exchange rates via an external API.
+
+---
+
+## ✨ Features
+
+- 🌐 Real-time currency exchange conversion
+- 🔽 Dropdown selection of currency codes
+- 📱 Responsive and mobile-friendly UI
+- 💡 Easy to use for quick conversions
+- 🎨 Modern UI using Google Fonts and custom CSS
+
+---
+
+## 🚀 Live Demo
+
+> Add your live GitHub Pages or Netlify link here  
+> Example: [View Demo](https://yourusername.github.io/currency-converter)
+
+---
+
+## 🖥️ Tech Stack
+
+- **Frontend**: HTML5, CSS3, JavaScript
+- **Fonts**: Google Fonts (Poppins)
+- **API**: Real-time currency exchange API (e.g., ExchangeRate API)
+
+---
+
+## 🏗️ Project Structure
+
+currency-converter/
+├── index.html
+├── style.css
+├── script.js
+├── currency-codes.js
+├── api-key.js
+└── image.webp
+
+## ⚙️ How to Run Locally
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/currency-converter.git
+   cd currency-converter
