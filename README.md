@@ -14,18 +14,11 @@ A simple and responsive Currency Converter web application built using HTML, CSS
 
 ---
 
-## 🚀 Live Demo
-
-> Add your live GitHub Pages or Netlify link here  
-> Example: [View Demo](https://yourusername.github.io/currency-converter)
-
----
-
 ## 🖥️ Tech Stack
 
-- **Frontend**: HTML5, CSS3, JavaScript
+- **Frontend**: HTML, CSS, JavaScript
 - **Fonts**: Google Fonts (Poppins)
-- **API**: Real-time currency exchange API (e.g., ExchangeRate API)
+- **API**: Real-time currency exchange API 
 
 ---
 
